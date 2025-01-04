@@ -2,6 +2,8 @@
 
 An MCP server that provides text-to-speech functionality using macOS's built-in `say` command.
 
+<a href="https://glama.ai/mcp/servers/lmmqoe15jp"><img width="380" height="200" src="https://glama.ai/mcp/servers/lmmqoe15jp/badge" alt="Say Server MCP server" /></a>
+
 ## Installation
 
 ```bash
