@@ -63,6 +63,11 @@ class SayServer {
                 maximum: 500,
                 default: 175,
               },
+              background: {
+                type: 'boolean',
+                description: 'Run speech in background to unblock further MCP interaction',
+                default: false,
+              },
             },
             required: ['text'],
           },
@@ -81,19 +86,20 @@ class SayServer {
     this.server.setRequestHandler(CallToolRequestSchema, async (request) => {
       switch (request.params.name) {
         case 'speak': {
-          const { text, voice = 'Alex', rate = 175 } = request.params.arguments as {
+          const { text, voice = 'Alex', rate = 175, background = false } = request.params.arguments as {
             text: string;
             voice?: string;
             rate?: number;
+            background?: boolean;
           };
 
           try {
-            await execAsync(`say -v "${voice}" -r ${rate} "${text.replace(/"/g, '\\"')}"`);
+            await execAsync(`say -v "${voice}" -r ${rate} "${text.replace(/"/g, '\\"')}"${background ? ' &' : ''}`);
             return {
               content: [
                 {
                   type: 'text',
-                  text: `Successfully spoke text using voice "${voice}" at ${rate} words per minute`,
+                  text: `Successfully spoke text using voice "${voice}" at ${rate} words per minute${background ? ' (in background)' : ''}`,
                 },
               ],
             };

@@ -12,12 +12,152 @@ npm install say-mcp-server
 
 ### speak
 
+The `speak` tool provides access to macOS's text-to-speech capabilities with extensive customization options.
+
+#### Basic Usage
+
 Use macOS text-to-speech to speak text aloud.
 
 Parameters:
-- `text` (required): Text to speak
+- `text` (required): Text to speak. Supports:
+  - Plain text
+  - Basic punctuation for pauses
+  - Newlines for natural breaks
+  - [[slnc 500]] for 500ms silence
+  - [[rate 200]] for changing speed mid-text
+  - [[volm 0.5]] for changing volume mid-text
+  - [[emph +]] and [[emph -]] for emphasis
+  - [[pbas +10]] for pitch adjustment
 - `voice` (optional): Voice to use (default: "Alex")
-- `rate` (optional): Speaking rate in words per minute (default: 175)
+- `rate` (optional): Speaking rate in words per minute (default: 175, range: 1-500)
+- `background` (optional): Run speech in background to allow further MCP interaction (default: false)
+
+#### Advanced Features
+
+1. Voice Modulation:
+```typescript
+use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: "[[volm 0.7]] This is quieter [[volm 1.0]] and this is normal [[volm 1.5]] and this is louder",
+    voice: "Victoria"
+  }
+});
+```
+
+2. Dynamic Rate Changes:
+```typescript
+use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: "Normal speed [[rate 300]] now speaking faster [[rate 100]] and now slower",
+    voice: "Fred"
+  }
+});
+```
+
+3. Emphasis and Pitch:
+```typescript
+use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: "[[emph +]] Important point! [[emph -]] [[pbas +10]] Higher pitch [[pbas -10]] Lower pitch",
+    voice: "Samantha"
+  }
+});
+```
+
+#### Integration Examples
+
+1. With Marginalia Search:
+```typescript
+// Search for a topic and have the results read aloud
+const searchResult = await use_mcp_tool({
+  server_name: "marginalia-mcp-server",
+  tool_name: "search",
+  arguments: { query: "quantum computing basics", count: 1 }
+});
+
+await use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: searchResult.results[0].description,
+    voice: "Daniel",
+    rate: 150
+  }
+});
+```
+
+2. With YouTube Transcripts:
+```typescript
+// Read a YouTube video transcript
+const transcript = await use_mcp_tool({
+  server_name: "youtube-transcript",
+  tool_name: "get_transcript",
+  arguments: {
+    url: "https://youtube.com/watch?v=example",
+    lang: "en"
+  }
+});
+
+await use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: transcript.text,
+    voice: "Samantha",
+    rate: 175
+  }
+});
+```
+
+3. Background Speech with Multiple Actions:
+```typescript
+// Start long speech in background
+await use_mcp_tool({
+  server_name: "say",
+  tool_name: "speak",
+  arguments: {
+    text: "This is a long speech that will run in the background...",
+    voice: "Rocko (Italian (Italy))",
+    rate: 69,
+    background: true
+  }
+});
+
+// Immediately perform another action while speech continues
+await use_mcp_tool({
+  server_name: "marginalia-mcp-server",
+  tool_name: "search",
+  arguments: { query: "parallel processing" }
+});
+```
+
+4. With Apple Notes:
+```typescript
+// Read notes aloud
+const notes = await use_mcp_tool({
+  server_name: "apple-notes-mcp",
+  tool_name: "search-notes",
+  arguments: { query: "meeting notes" }
+});
+
+if (notes.length > 0) {
+  await use_mcp_tool({
+    server_name: "say",
+    tool_name: "speak",
+    arguments: {
+      text: notes[0].content,
+      voice: "Karen",
+      rate: 160
+    }
+  });
+}
+```
 
 Example:
 ```typescript
