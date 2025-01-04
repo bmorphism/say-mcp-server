@@ -1,0 +1,54 @@
+{
+  "name": "say-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for macOS text-to-speech functionality",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "say-mcp-server": "build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "start": "node build/index.js",
+    "dev": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "text-to-speech",
+    "tts",
+    "macos",
+    "say",
+    "speech"
+  ],
+  "author": {
+    "name": "Barton Rhodes",
+    "email": "barton@vibes.lol",
+    "url": "https://github.com/bmorphism"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmorphism/say-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmorphism/say-mcp-server/issues"
+  },
+  "homepage": "https://github.com/bmorphism/say-mcp-server#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": ["darwin"],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  }
+}
