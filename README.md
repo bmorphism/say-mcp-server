@@ -187,31 +187,71 @@ use_mcp_tool({
 
 ## Recommended Voices
 
-| Voice | Language/Region | Intellectual Figure | Haiku | Voice Pronunciation |
-|-------|-----------------|---------------------|-------|---------------------|
-| Anna (Premium) | German | Emmy Noether | Symmetry breathes life\nAlgebra's hidden forms\nAbstraction blooms | Anna's Voice |
-| Emma (Premium) | Italian | Ada Lovelace | Algorithms dance\nMachine whispers secrets soft\nCode becomes alive | Emma's Voice |
-| Serena (Premium) | English (UK) | Bertha Swirles | Quantum shadows leap\nMathematics unveils truth\nReality bends | Serena's Voice |
-| Yuna (Premium) | Korean | Kim Kyung-won | Hidden patterns gleam\nMind's equations softly bloom\nKnowledge multiplies | Yuna's Voice |
-| Alva (Premium) | Swedish | Sonja Korovkin | Topology weaves\nAbstract spaces breathe and dance\nMeaning crystallized | Alva's Voice |
-| Amélie (Premium) | French | Sophie Germain | Primes whisper soft myths\nNumbers dance between silence\nSymmetry unfolds | Amélie's Voice |
-| Ewa (Premium) | Polish | Maria Wielgus | Logic's tender roots\nMathematical landscapes\nThought's seeds germinate | Ewa's Voice |
-| Kiyara (Premium) | Hindi | Shakuntala Devi | Numbers pulse like breath\nCalculation's pure rhythm\nMind becomes the sum | Kiyara's Voice |
-| Majed (Premium) | Arabic | Maha Al-Aswad | Equations bloom wide\nInfinite paths intersect\nKnowledge resonates | Majed's Voice |
-| Tünde (Premium) | Hungarian | Julia Erdős | Theorems spiral\nMind's intricate patterns flow\nAbstraction takes flight | Tünde's Voice |
-| Lesya (Enhanced) | Ukrainian | Olena Voinova | Truth grows quietly\nBetween silence and knowledge\nMind breaks boundaries | Lesya's Voice |
-| Yelda (Enhanced) | Turkish | Nihal Büyükaksoy | Symbols dance softly\nMathematics breathes silent\nUnderstanding blooms | Yelda's Voice |
-| Milena (Enhanced) | Russian | Olga Ladyzhenskaya | Memory whispers\nEquations flow like rivers\nTruth speaks silently | Milena's Voice |
-| Luciana (Enhanced) | Portuguese | Beatriz Costa | Words dance between dreams\nAbstract worlds interweave soft\nKnowledge transforms self | Luciana's Voice |
-| Zuzana (Premium) | Czech | Věra Hájková | Power dissolves soft\nHope grows silent and profound\nTruth speaks eloquent | Zuzana's Voice |
-| Damayanti (Enhanced) | Indonesian | Sri Pekerti | Voice flows gently now\nBetween national dreaming\nHistory emerges | Damayanti's Voice |
-| Dariush (Enhanced) | Persian | Maryam Mirzakhani | Silence blossoms here\nBetween word and mathematics\nWoman liberates | Dariush's Voice |
-| Melina (Enhanced) | Greek | Marina Vamvouri | Light whispers secrets\nBetween shadows of knowledge\nPoetry blooms bright | Melina's Voice |
-| Linh (Enhanced) | Vietnamese | Nguyễn Thị Xuân | Breath echoes softly\nAmidst spaces of sorrow\nFreedom blooms like wind | Linh's Voice |
-| Isabela (Enhanced) | Spanish | Carmen Gómez | Words flow ceaselessly\nBetween myth and reality\nStories are birthed now | Isabela's Voice |
-| Carmit (Enhanced) | Hebrew | Tali Seror | Words breathe silently\nBetween lines of deep stillness\nPoem awakening | Carmit's Voice |
-| Lekha (Multiple) | Hindi | Neelam Saxena | Revolution streams\nHidden power in language\nFreedom sings its song | Lekha's Voice |
-| Kyoko (Japanese) | Japanese | Kazuko Miyamoto | Silence vibrates soft\nBetween dream and perception\nWorld transforms itself | Kyoko's Voice |
+<table>
+<tr>
+<th>Voice</th>
+<th>Language/Region</th>
+<th>Intellectual Figure</th>
+<th>Haiku</th>
+<th>Voice Pronunciation</th>
+</tr>
+<tr>
+<td>Anna (Premium)</td>
+<td>German</td>
+<td>Emmy Noether</td>
+<td>Symmetrie haucht Leben<br>Algebras verborgne Form<br>Abstraktion blüht<br><br><i>Symmetry breathes life<br>Algebra's hidden forms<br>Abstraction blooms</i></td>
+<td>Anna's Voice</td>
+</tr>
+<tr>
+<td>Emma (Premium)</td>
+<td>Italian</td>
+<td>Ada Lovelace</td>
+<td>Algoritmi in danza<br>Macchina sussurra dolce<br>Il codice vive<br><br><i>Algorithms dance<br>Machine whispers secrets soft<br>Code becomes alive</i></td>
+<td>Emma's Voice</td>
+</tr>
+<tr>
+<td>Yuna (Premium)</td>
+<td>Korean</td>
+<td>Kim Kyung-won</td>
+<td>숨은 패턴 빛나고<br>마음의 방정식 핀다<br>지식 자라나<br><br><i>Hidden patterns gleam<br>Mind's equations softly bloom<br>Knowledge multiplies</i></td>
+<td>Yuna's Voice</td>
+</tr>
+<tr>
+<td>Amélie (Premium)</td>
+<td>French</td>
+<td>Sophie Germain</td>
+<td>Nombres premiers murmurent<br>Dansent entre les silences<br>Symétrie s'ouvre<br><br><i>Prime numbers whisper<br>Dancing between the silence<br>Symmetry unfolds</i></td>
+<td>Amélie's Voice</td>
+</tr>
+<tr>
+<td>Ewa (Premium)</td>
+<td>Polish</td>
+<td>Maria Wielgus</td>
+<td>Logiki korzenie<br>Matematyczne krainy<br>Myśl kiełkująca<br><br><i>Logic's tender roots<br>Mathematical landscapes<br>Thought's seeds germinate</i></td>
+<td>Ewa's Voice</td>
+</tr>
+<tr>
+<td>Kyoko (Japanese)</td>
+<td>Japanese</td>
+<td>Kazuko Miyamoto</td>
+<td>静寂揺れる<br>夢と認識の<br>間で世界が変わる<br><br><i>Silence vibrates soft<br>Between dream and perception<br>World transforms itself</i></td>
+<td>Kyoko's Voice</td>
+</tr>
+<tr>
+<td>Milena (Enhanced)</td>
+<td>Russian</td>
+<td>Olga Ladyzhenskaya</td>
+<td>Память шепчет нам<br>Уравнения текут<br>Истина молчит<br><br><i>Memory whispers<br>Equations flow like rivers<br>Truth speaks silently</i></td>
+<td>Milena's Voice</td>
+</tr>
+<tr>
+<td>Carmit (Enhanced)</td>
+<td>Hebrew</td>
+<td>Tali Seror</td>
+<td>מילים נושמות בשקט<br>בין שורות של דממה<br>שיר מתעורר<br><br><i>Words breathe silently<br>Between lines of deep stillness<br>Poem awakening</i></td>
+<td>Carmit's Voice</td>
+</tr>
+</table>
 
 ## Configuration
 
