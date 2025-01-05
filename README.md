@@ -185,52 +185,33 @@ use_mcp_tool({
 });
 ```
 
-## Available Voices
+## Recommended Voices
 
-Here's a list of all available voices and their languages:
-
-| Voice | Language Code | Sample |
-|-------|--------------|----------|
-| Albert | en_US | Hello! My name is Albert. |
-| Alice | it_IT | Ciao! Mi chiamo Alice. |
-| Alva | sv_SE | Hej! Jag heter Alva. |
-| Amélie | fr_CA | Bonjour! Je m'appelle Amélie. |
-| Amira | ms_MY | Hi my name is Amira |
-| Anna | de_DE | Hallo! Ich heiße Anna. |
-| Bad News | en_US | Hello! My name is Bad News. |
-| Carmit | he_IL | שלום, שמי כרמית. |
-| Daniel | en_GB | Hello! My name is Daniel. |
-| Daria | bg_BG | Hello! My name is Daria. |
-| Ellen | nl_BE | Hallo! Mijn naam is Ellen. |
-| Fred | en_US | Hello! My name is Fred. |
-| Good News | en_US | Hello! My name is Good News. |
-| Jacques | fr_FR | Bonjour, je m'appelle Jacques. |
-| Joana | pt_PT | Olá! Chamo‑me Joana. |
-| Karen | en_AU | Hi my name is Karen |
-| Kyoko | ja_JP | こんにちは! 私の名前はKyokoです。 |
-| Lekha | hi_IN | नमस्ते, मेरा नाम लेखा है। |
-| Luciana | pt_BR | Olá, meu nome é Luciana. |
-| Majed | ar_001 | مرحبًا! اسمي ماجد. |
-| Melina | el_GR | Χαίρετε! Το όνομά μου είναι «Μελίνα». |
-| Milena | ru_RU | Здравствуйте! Меня зовут Милена. |
-| Moira | en_IE | Hello! My name is Moira. |
-| Mónica | es_ES | ¡Hola! Me llamo Mónica. |
-| Nora | nb_NO | Hei! Jeg heter Nora. |
-| Paulina | es_MX | ¡Hola! Me llamo Paulina. |
-| Rishi | en_IN | Hello! My name is Rishi. |
-| Rocko (Italian (Italy)) | it_IT | Ciao! Mi chiamo Rocko. |
-| Samantha | en_US | Hello! My name is Samantha. |
-| Sara | da_DK | Hej! Jeg hedder Sara. |
-| Satu | fi_FI | Hei! Nimeni on Satu. |
-| Sinji | zh_HK | 你好！我叫善怡。 |
-| Tessa | en_ZA | Hello! My name is Tessa. |
-| Thomas | fr_FR | Bonjour, je m'appelle Thomas. |
-| Tingting | zh_CN | Hi my name is Tingting |
-| Victoria | en_US | Hello! My name is Victoria. |
-| Xander | nl_NL | Hallo! Mijn naam is Xander. |
-| Yuna | ko_KR | 안녕하세요. 제 이름은 유나입니다. |
-| Zosia | pl_PL | Hi my name is Zosia |
-| Zuzana | cs_CZ | Hi my name is Zuzana |
+| Voice | Language/Region | Intellectual Figure | Haiku | Voice Pronunciation |
+|-------|-----------------|---------------------|-------|---------------------|
+| Anna (Premium) | German | Emmy Noether | Symmetry breathes life\nAlgebra's hidden forms\nAbstraction blooms | Anna's Voice |
+| Emma (Premium) | Italian | Ada Lovelace | Algorithms dance\nMachine whispers secrets soft\nCode becomes alive | Emma's Voice |
+| Serena (Premium) | English (UK) | Bertha Swirles | Quantum shadows leap\nMathematics unveils truth\nReality bends | Serena's Voice |
+| Yuna (Premium) | Korean | Kim Kyung-won | Hidden patterns gleam\nMind's equations softly bloom\nKnowledge multiplies | Yuna's Voice |
+| Alva (Premium) | Swedish | Sonja Korovkin | Topology weaves\nAbstract spaces breathe and dance\nMeaning crystallized | Alva's Voice |
+| Amélie (Premium) | French | Sophie Germain | Primes whisper soft myths\nNumbers dance between silence\nSymmetry unfolds | Amélie's Voice |
+| Ewa (Premium) | Polish | Maria Wielgus | Logic's tender roots\nMathematical landscapes\nThought's seeds germinate | Ewa's Voice |
+| Kiyara (Premium) | Hindi | Shakuntala Devi | Numbers pulse like breath\nCalculation's pure rhythm\nMind becomes the sum | Kiyara's Voice |
+| Majed (Premium) | Arabic | Maha Al-Aswad | Equations bloom wide\nInfinite paths intersect\nKnowledge resonates | Majed's Voice |
+| Tünde (Premium) | Hungarian | Julia Erdős | Theorems spiral\nMind's intricate patterns flow\nAbstraction takes flight | Tünde's Voice |
+| Lesya (Enhanced) | Ukrainian | Olena Voinova | Truth grows quietly\nBetween silence and knowledge\nMind breaks boundaries | Lesya's Voice |
+| Yelda (Enhanced) | Turkish | Nihal Büyükaksoy | Symbols dance softly\nMathematics breathes silent\nUnderstanding blooms | Yelda's Voice |
+| Milena (Enhanced) | Russian | Olga Ladyzhenskaya | Memory whispers\nEquations flow like rivers\nTruth speaks silently | Milena's Voice |
+| Luciana (Enhanced) | Portuguese | Beatriz Costa | Words dance between dreams\nAbstract worlds interweave soft\nKnowledge transforms self | Luciana's Voice |
+| Zuzana (Premium) | Czech | Věra Hájková | Power dissolves soft\nHope grows silent and profound\nTruth speaks eloquent | Zuzana's Voice |
+| Damayanti (Enhanced) | Indonesian | Sri Pekerti | Voice flows gently now\nBetween national dreaming\nHistory emerges | Damayanti's Voice |
+| Dariush (Enhanced) | Persian | Maryam Mirzakhani | Silence blossoms here\nBetween word and mathematics\nWoman liberates | Dariush's Voice |
+| Melina (Enhanced) | Greek | Marina Vamvouri | Light whispers secrets\nBetween shadows of knowledge\nPoetry blooms bright | Melina's Voice |
+| Linh (Enhanced) | Vietnamese | Nguyễn Thị Xuân | Breath echoes softly\nAmidst spaces of sorrow\nFreedom blooms like wind | Linh's Voice |
+| Isabela (Enhanced) | Spanish | Carmen Gómez | Words flow ceaselessly\nBetween myth and reality\nStories are birthed now | Isabela's Voice |
+| Carmit (Enhanced) | Hebrew | Tali Seror | Words breathe silently\nBetween lines of deep stillness\nPoem awakening | Carmit's Voice |
+| Lekha (Multiple) | Hindi | Neelam Saxena | Revolution streams\nHidden power in language\nFreedom sings its song | Lekha's Voice |
+| Kyoko (Japanese) | Japanese | Kazuko Miyamoto | Silence vibrates soft\nBetween dream and perception\nWorld transforms itself | Kyoko's Voice |
 
 ## Configuration
 
