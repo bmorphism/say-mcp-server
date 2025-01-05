@@ -195,63 +195,63 @@ use_mcp_tool({
 <th>Language/Region</th>
 <th>Intellectual Figure</th>
 <th>Haiku</th>
-<th>Voice Pronunciation</th>
+<th>Voice ID</th>
 </tr>
 <tr>
 <td>Anna (Premium)</td>
 <td>German</td>
 <td>Emmy Noether</td>
 <td>Symmetrie haucht Leben<br>Algebras verborgne Form<br>Abstraktion blüht<br><br><i>Symmetry breathes life<br>Algebra's hidden forms<br>Abstraction blooms</i></td>
-<td>Anna's Voice</td>
+<td><code>Anna</code></td>
 </tr>
 <tr>
 <td>Emma (Premium)</td>
 <td>Italian</td>
 <td>Ada Lovelace</td>
 <td>Algoritmi in danza<br>Macchina sussurra dolce<br>Il codice vive<br><br><i>Algorithms dance<br>Machine whispers secrets soft<br>Code becomes alive</i></td>
-<td>Emma's Voice</td>
+<td><code>Emma</code></td>
 </tr>
 <tr>
 <td>Yuna (Premium)</td>
 <td>Korean</td>
 <td>Kim Kyung-won</td>
 <td>숨은 패턴 빛나고<br>마음의 방정식 핀다<br>지식 자라나<br><br><i>Hidden patterns gleam<br>Mind's equations softly bloom<br>Knowledge multiplies</i></td>
-<td>Yuna's Voice</td>
+<td><code>Yuna</code></td>
 </tr>
 <tr>
 <td>Amélie (Premium)</td>
 <td>French</td>
 <td>Sophie Germain</td>
 <td>Nombres premiers murmurent<br>Dansent entre les silences<br>Symétrie s'ouvre<br><br><i>Prime numbers whisper<br>Dancing between the silence<br>Symmetry unfolds</i></td>
-<td>Amélie's Voice</td>
+<td><code>Amelie</code></td>
 </tr>
 <tr>
 <td>Ewa (Premium)</td>
 <td>Polish</td>
 <td>Maria Wielgus</td>
 <td>Logiki korzenie<br>Matematyczne krainy<br>Myśl kiełkująca<br><br><i>Logic's tender roots<br>Mathematical landscapes<br>Thought's seeds germinate</i></td>
-<td>Ewa's Voice</td>
+<td><code>Ewa</code></td>
 </tr>
 <tr>
 <td>Kyoko (Japanese)</td>
 <td>Japanese</td>
 <td>Kazuko Miyamoto</td>
 <td>静寂揺れる<br>夢と認識の<br>間で世界が変わる<br><br><i>Silence vibrates soft<br>Between dream and perception<br>World transforms itself</i></td>
-<td>Kyoko's Voice</td>
+<td><code>Kyoko</code></td>
 </tr>
 <tr>
 <td>Milena (Enhanced)</td>
 <td>Russian</td>
 <td>Olga Ladyzhenskaya</td>
 <td>Память шепчет нам<br>Уравнения текут<br>Истина молчит<br><br><i>Memory whispers<br>Equations flow like rivers<br>Truth speaks silently</i></td>
-<td>Milena's Voice</td>
+<td><code>Milena</code></td>
 </tr>
 <tr>
 <td>Carmit (Enhanced)</td>
 <td>Hebrew</td>
 <td>Tali Seror</td>
 <td>מילים נושמות בשקט<br>בין שורות של דממה<br>שיר מתעורר<br><br><i>Words breathe silently<br>Between lines of deep stillness<br>Poem awakening</i></td>
-<td>Carmit's Voice</td>
+<td><code>Carmit</code></td>
 </tr>
 </table>
 
