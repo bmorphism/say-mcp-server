@@ -4,6 +4,26 @@
 
 An MCP server that provides text-to-speech functionality using macOS's built-in `say` command.
 
+## Requirements
+
+- macOS (uses the built-in `say` command)
+- Node.js >= 14.0.0
+
+## Configuration
+
+Add the following to your MCP settings configuration file:
+
+```json
+{
+  "mcpServers": {
+    "say": {
+      "command": "node",
+      "args": ["/path/to/say-mcp-server/build/index.js"]
+    }
+  }
+}
+```
+
 ## Installation
 
 ```bash
