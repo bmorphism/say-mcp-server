@@ -1,5 +1,7 @@
 # say-mcp-server
 
+![macOS System Voice Settings](images/adding_voice.png)
+
 An MCP server that provides text-to-speech functionality using macOS's built-in `say` command.
 
 ## Installation
