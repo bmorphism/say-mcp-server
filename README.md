@@ -190,7 +190,7 @@ use_mcp_tool({
 Here's a list of all available voices and their languages:
 
 | Voice | Language Code | Sample |
-|-------|--------------|---------|
+|-------|--------------|----------|
 | Albert | en_US | Hello! My name is Albert. |
 | Alice | it_IT | Ciao! Mi chiamo Alice. |
 | Alva | sv_SE | Hej! Jag heter Alva. |

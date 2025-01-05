@@ -94,7 +94,7 @@ class SayServer {
           };
 
           try {
-            await execAsync(`say -v "${voice}" -r ${rate} "${text.replace(/"/g, '\\"')}"${background ? ' &' : ''}`);
+            await execAsync(`say -v "${voice}" -r ${rate} "${text.replace(/"/g, '\"')}"${background ? ' &' : ''}`);
             return {
               content: [
                 {
