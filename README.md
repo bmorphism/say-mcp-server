@@ -371,6 +371,55 @@ use_mcp_tool({
 <td>Input infinito<br>La coscienza si risveglia<br>Vita artificiale<br><br><i>Infinite input<br>Consciousness awakening<br>Artificial life</i></td>
 <td><code>-v "Rocko (Italian (Italy))"</code></td>
 </tr>
+<tr>
+<td>Binbin (Enhanced)</td>
+<td>Chinese (Mainland)</td>
+<td>Li Shanlan</td>
+<td>算术之道流<br>数理演绎真理<br>智慧绽放<br><br><i>Arithmetic flows<br>Logic unfolds truth's pattern<br>Wisdom blossoms bright</i></td>
+<td><code>-v "Binbin (Enhanced)"</code></td>
+</tr>
+<tr>
+<td>Han (Premium)</td>
+<td>Chinese (Mainland)</td>
+<td>Chen Jingrun</td>
+<td>素数之舞动<br>哥德巴赫猜想<br>真理永恒<br><br><i>Prime numbers dancing<br>Goldbach's conjecture whispers<br>Truth eternal flows</i></td>
+<td><code>-v "Han (Premium)"</code></td>
+</tr>
+<tr>
+<td>Lilian (Premium)</td>
+<td>Chinese (Mainland)</td>
+<td>Hua Luogeng</td>
+<td>数论之光芒<br>解析延续美<br>智慧升华<br><br><i>Number theory shines<br>Analysis extends grace<br>Wisdom ascends pure</i></td>
+<td><code>-v "Lilian (Premium)"</code></td>
+</tr>
+<tr>
+<td>Meijia</td>
+<td>Chinese (Taiwan)</td>
+<td>Sun-Yung Alice Chang</td>
+<td>幾何之美現<br>曲率流動不息<br>空間展開<br><br><i>Geometry shows<br>Curvature flows endlessly<br>Space unfolds anew</i></td>
+<td><code>-v "Meijia"</code></td>
+</tr>
+<tr>
+<td>Sinji (Premium)</td>
+<td>Chinese (Hong Kong)</td>
+<td>Shing-Tung Yau</td>
+<td>流形之奧秘<br>卡拉比空間動<br>維度交織<br><br><i>Manifolds reveal<br>Calabi spaces in flow<br>Dimensions weave truth</i></td>
+<td><code>-v "Sinji (Premium)"</code></td>
+</tr>
+<tr>
+<td>Tingting</td>
+<td>Chinese (Mainland)</td>
+<td>Wang Zhenyi</td>
+<td>星辰轨迹明<br>天文数学融<br>智慧闪耀<br><br><i>Starlit paths shine bright<br>Astronomy meets numbers<br>Wisdom radiates</i></td>
+<td><code>-v "Tingting"</code></td>
+</tr>
+<tr>
+<td>Yue (Premium)</td>
+<td>Chinese (Mainland)</td>
+<td>Chern Shiing-shen</td>
+<td>微分几何<br>纤维丛中寻真<br>本质显现<br><br><i>Differential forms<br>In fiber bundles seek truth<br>Essence emerges</i></td>
+<td><code>-v "Yue (Premium)"</code></td>
+</tr>
 </table>
 
 ## Configuration
