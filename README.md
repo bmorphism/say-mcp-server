@@ -1,4 +1,5 @@
 # say-mcp-server
+<a href="https://glama.ai/mcp/servers/lmmqoe15jp"><img width="380" height="200" src="https://glama.ai/mcp/servers/lmmqoe15jp/badge" alt="Say Server MCP server" /></a>
 
 ![macOS System Voice Settings](images/adding_voice.png)
 
@@ -23,6 +24,7 @@ Add the following to your MCP settings configuration file:
   }
 }
 ```
+
 
 ## Installation
 
